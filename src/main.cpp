@@ -10,9 +10,8 @@
 #define FILE_PATH "/home/clement/Documents/touhouExtract/sfx/se_nep00.wav"
 #define FILE_PATH0 "/home/clement/Documents/touhouExtract/sfx/se_alert.wav"
 #define FILE_PATH1 "/home/clement/Documents/touhouExtract/sfx/se_cat00.wav"
-#define FILE_PATH_MUSIC_BATTLE                                                 \
-  "/home/clement/dev/AudioTutorial/dw_aqua_battle.wav"
-#define FILE_PATH_MUSIC_CALM "/home/clement/dev/AudioTutorial/dw_aqua_calm.wav"
+#define FILE_PATH_MUSIC_BATTLE "../dw_aqua_battle.wav"
+#define FILE_PATH_MUSIC_CALM "../dw_aqua_calm.wav"
 
 int main(int argc [[maybe_unused]], char *argv [[maybe_unused]][]) {
   SDL_Init(SDL_INIT_EVERYTHING);
